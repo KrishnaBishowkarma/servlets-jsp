@@ -46,3 +46,6 @@ ehthumbs.db
 *.log
 *.out
 *.swp
+
+# Extensions
+.smarttomcat/
