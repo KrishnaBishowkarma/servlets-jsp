@@ -8,7 +8,7 @@ import java.io.IOException;
 import java.io.PrintWriter;
 
 public class MultiplyServlet extends HttpServlet {
-    public void service(HttpServletRequest request, HttpServletResponse response) throws IOException {
+    public void doPost(HttpServletRequest request, HttpServletResponse response) throws IOException {
         double i = Double.parseDouble(request.getParameter("num1"));
         double j = Double.parseDouble(request.getParameter("num2"));
 
