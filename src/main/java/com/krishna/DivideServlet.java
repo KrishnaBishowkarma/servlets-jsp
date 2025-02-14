@@ -14,8 +14,6 @@ public class DivideServlet extends HttpServlet {
 
         int k = i / j;
 
-        System.out.println("Result is: " + k);
-
         PrintWriter out = response.getWriter();
         out.println("Result is: " + k);
     }
