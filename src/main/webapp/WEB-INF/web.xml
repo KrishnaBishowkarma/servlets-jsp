@@ -22,4 +22,14 @@
         <servlet-name>Product</servlet-name>
         <url-pattern>/product</url-pattern>
     </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Div</servlet-name>
+        <servlet-class>com.krishna.DivideServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>Div</servlet-name>
+        <url-pattern>/divide</url-pattern>
+    </servlet-mapping>
 </web-app>
