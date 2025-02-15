@@ -14,6 +14,15 @@
     </servlet-mapping>
 
     <servlet>
+        <servlet-name>Square</servlet-name>
+        <servlet-class>com.krishna.SquareServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Square</servlet-name>
+        <url-pattern>/square</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
         <servlet-name>Product</servlet-name>
         <servlet-class>com.krishna.MultiplyServlet</servlet-class>
     </servlet>
