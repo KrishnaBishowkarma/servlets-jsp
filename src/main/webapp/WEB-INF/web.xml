@@ -41,4 +41,14 @@
         <servlet-name>Div</servlet-name>
         <url-pattern>/divide</url-pattern>
     </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Sub</servlet-name>
+        <servlet-class>com.krishna.SubtractServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>Sub</servlet-name>
+        <url-pattern>/subtract</url-pattern>
+    </servlet-mapping>
 </web-app>
