@@ -51,4 +51,14 @@
         <servlet-name>Sub</servlet-name>
         <url-pattern>/subtract</url-pattern>
     </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Greeting</servlet-name>
+        <servlet-class>com.krishna.PrintServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>Greeting</servlet-name>
+        <url-pattern>/greet</url-pattern>
+    </servlet-mapping>
 </web-app>
